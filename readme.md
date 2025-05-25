@@ -1,3 +1,5 @@
+Hours: 4h
+
 # May 24
 First pcb lol. I can't believe I made it this far without a single PCB. FRC, Infill ect.
 
