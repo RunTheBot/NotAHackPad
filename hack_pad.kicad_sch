@@ -1586,6 +1586,163 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SSD1306-0.91_OLED:SSD1306"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Brd"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SSD1306"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SSD1306 OLED"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SSD1306"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SSD1306-128x64_OLED:SSD1306"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SSD1306_0_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SSD1306_1_1"
+				(pin input line
+					(at -3.81 8.89 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 8.89 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 8.89 270)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 8.89 270)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -4312,6 +4469,12 @@
 		(uuid "bf0219de-66d0-47c7-a0c6-a6a2a9782344")
 	)
 	(junction
+		(at 422.91 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf220111-c920-4918-83cf-c132dcf2add9")
+	)
+	(junction
 		(at 294.64 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5161,6 +5324,16 @@
 	)
 	(wire
 		(pts
+			(xy 422.91 59.69) (xy 425.45 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "174edf96-1cc2-4bb6-9189-8424e4bcb97c")
+	)
+	(wire
+		(pts
 			(xy 76.2 190.5) (xy 91.44 190.5)
 		)
 		(stroke
@@ -5651,6 +5824,16 @@
 	)
 	(wire
 		(pts
+			(xy 424.18 99.06) (xy 422.91 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f3a4fea-b11c-40f1-a7d0-57bbb3bac272")
+	)
+	(wire
+		(pts
 			(xy 152.4 172.72) (xy 167.64 172.72)
 		)
 		(stroke
@@ -5978,6 +6161,16 @@
 			(type default)
 		)
 		(uuid "6fc00208-7f35-4098-b555-650ef1ec682f")
+	)
+	(wire
+		(pts
+			(xy 422.91 99.06) (xy 422.91 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71bda025-5d4b-4944-8ff3-37213e598b2a")
 	)
 	(wire
 		(pts
@@ -7971,6 +8164,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL1"
+		(shape input)
+		(at 425.45 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8fe5e1d1-08a7-46ec-b79a-63df1d247bdc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 417.7477 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA1"
+		(shape input)
+		(at 425.45 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "92a9181d-0651-49ea-8899-140324bcb80c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 417.6872 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -33964,7 +34201,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 426.72 99.06 0)
+		(at 427.99 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33973,7 +34210,7 @@
 		(fields_autoplaced yes)
 		(uuid "8cd43b22-3be0-41cc-af43-b257b4b786e7")
 		(property "Reference" "D205"
-			(at 426.72 92.71 0)
+			(at 427.99 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33981,7 +34218,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 426.72 95.25 0)
+			(at 427.99 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33989,7 +34226,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
-			(at 426.72 99.06 0)
+			(at 427.99 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33998,7 +34235,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 426.72 99.06 0)
+			(at 427.99 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34007,7 +34244,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 426.72 99.06 0)
+			(at 427.99 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34016,7 +34253,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 426.72 99.06 0)
+			(at 427.99 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34025,7 +34262,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 426.72 99.06 0)
+			(at 427.99 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39298,6 +39535,82 @@
 		)
 	)
 	(symbol
+		(lib_id "SSD1306-0.91_OLED:SSD1306")
+		(at 434.34 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab8d6a84-172f-4a88-adac-bd83faf5b7a1")
+		(property "Reference" "Brd1"
+			(at 441.96 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SSD1306"
+			(at 441.96 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Display:OLED-128O064D"
+			(at 427.99 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 427.99 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SSD1306 OLED"
+			(at 434.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "07022452-f494-4003-b3f5-c095ccb21eb6")
+		)
+		(pin "3"
+			(uuid "1e540ff9-942d-42b9-aef2-1e15cb31be9e")
+		)
+		(pin "4"
+			(uuid "b0f07cfe-c22f-42c9-9ab0-bc3749f62c98")
+		)
+		(pin "1"
+			(uuid "bf42a23a-9980-4d8b-96f8-0d781c4ef773")
+		)
+		(instances
+			(project ""
+				(path "/d4b0ca01-3fca-43e7-acf5-9c62f788d69d"
+					(reference "Brd1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:SK6812MINI")
 		(at 237.49 210.82 0)
 		(unit 1)
@@ -43533,6 +43846,73 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
+		(at 425.45 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbab0347-2e96-4fc8-bb82-be77e8c8154a")
+		(property "Reference" "#PWR0212"
+			(at 419.1 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 421.64 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 425.45 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 425.45 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 425.45 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a17afad-3469-4ba6-973c-cfa34bff1a76")
+		)
+		(instances
+			(project "hack_pad"
+				(path "/d4b0ca01-3fca-43e7-acf5-9c62f788d69d"
+					(reference "#PWR0212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
 		(at 256.54 25.4 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -45524,7 +45904,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 430.53 99.06 270)
+		(at 431.8 99.06 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -45533,7 +45913,7 @@
 		(fields_autoplaced yes)
 		(uuid "d57fb58a-1a09-44ac-9835-c00eb000094c")
 		(property "Reference" "#PWR0204"
-			(at 426.72 99.06 0)
+			(at 427.99 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45542,7 +45922,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 434.34 99.0599 90)
+			(at 435.61 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45551,7 +45931,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 430.53 99.06 0)
+			(at 431.8 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45560,7 +45940,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 430.53 99.06 0)
+			(at 431.8 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45569,7 +45949,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 430.53 99.06 0)
+			(at 431.8 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
