@@ -8,6 +8,9 @@ Anyways, it's just a hackpad with a full pico and 100 buttons.
 with 100 neopixels it gets complicated so barrel jack for power bc im not evan yu and i dont want to deal with USB PD.
 
 I added a auto Polarity-correcting circuit so any barrel jack will work. 
+
+![image](https://hc-cdn.hel1.your-objectstorage.com/s/v3/19f6320a5665654f727d99102602c0f5291ef69b_image.png)
+
 ![alt text](https://hc-cdn.hel1.your-objectstorage.com/s/v3/35eff8242303862a8dacaaccf697516494d585bd_image.png)
 
 # May 25
