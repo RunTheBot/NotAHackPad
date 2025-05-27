@@ -36,3 +36,10 @@ Added OLED
 
 # Done!
 ![image](https://hc-cdn.hel1.your-objectstorage.com/s/v3/ef266a287a58cd07a0612462b57fb480a293adc5_image.png)
+
+# May 27
+Hours: 1h
+
+Case design done. pretty basic. I just wanted to get it done.
+
+Firmware done. just macros in kmk.

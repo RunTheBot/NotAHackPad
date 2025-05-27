@@ -4,7 +4,7 @@ from kmk.keys import KC
 from kmk.modules.layers import Layers
 from kmk.modules.macros import Macros
 from kmk.modules.holdtap import HoldTap
-
+import neopixel
 import board
 
 keyboard = KMKKeyboard()
@@ -29,6 +29,47 @@ PROD = 1
 DEV = 2
 GAME = 3
 ART = 4
+
+# RGB class for NeoPixel integration
+class RGB:
+    def __init__(self, keyboard, pin, pixel_count, rows, cols):
+        self.kbd = keyboard
+        self.pixels = neopixel.NeoPixel(pin, pixel_count, auto_write=False)
+        self.rows = rows
+        self.cols = cols
+        # layer background colors
+        self.layer_colors = {
+            BASE: (255,   0,   0),  # red
+            PROD: (  0, 255,   0),  # green
+            DEV:  (  0,   0, 255),  # blue
+            GAME: (128,   0, 128),  # purple
+            ART:  (255, 255,   0),  # yellow
+        }
+        self.active_color = (255, 255, 255)  # white for keypress
+
+    def after_matrix_scan(self):
+        # 1) fill background
+        layer = self.kbd.modules[0].active_layer
+        bg = self.layer_colors.get(layer, (0, 0, 0))
+        for i in range(len(self.pixels)):
+            self.pixels[i] = bg
+        # 2) highlight pressed keys
+        for r in range(self.rows):
+            for c in range(self.cols):
+                if self.kbd.matrix[r][c]:
+                    idx = r * self.cols + c
+                    self.pixels[idx] = self.active_color
+        self.pixels.show()
+
+# Add RGB module
+rgb = RGB(
+    keyboard,
+    board.GP22,
+    len(keyboard.row_pins) * len(keyboard.col_pins),
+    len(keyboard.row_pins),
+    len(keyboard.col_pins),
+)
+keyboard.modules.append(rgb)
 
 # Keymap
 keyboard.keymap = [
