@@ -1,4 +1,4 @@
-Hours: 4.5h
+Hours: 7.5h
 
 # May 24
 
@@ -38,8 +38,13 @@ Added OLED
 ![image](https://hc-cdn.hel1.your-objectstorage.com/s/v3/ef266a287a58cd07a0612462b57fb480a293adc5_image.png)
 
 # May 27
-Hours: 1h
+Hours: 3h
 
 Case design done. pretty basic. I just wanted to get it done.
 
 Firmware done. just macros in kmk.
+
+Lots of modifactions to the PCB. Because of sizing issues.
+
+
+![image](https://hc-cdn.hel1.your-objectstorage.com/s/v3/f2d12adf2dd8d2c5410d7742ce670fa7a0d015b8_image.png)

@@ -2,7 +2,7 @@
 
 Basically a hack pad but with a lot more keys and a lot more LEDs. 
 
-## [BOM](https://docs.google.com/spreadsheets/d/1s7m9KlAu-EawWQ5k7trbtZSsV5alHb0_lQaYVRcTUCk/view) | [CAD](https://cad.onshape.com/documents/c8077fee67b983eb99774ac1/w/a53d436f84abc79ea5797123/e/d46022eb7d51b7e61800c962?renderMode=0&uiState=67f3385f421ce1387ca2ed81) | [Journal](https://github.com/RunTheBot/NotAHackPad/blob/master/journal.md)
+## [BOM](https://docs.google.com/spreadsheets/d/1s7m9KlAu-EawWQ5k7trbtZSsV5alHb0_lQaYVRcTUCk/view) | [CAD](https://cad.onshape.com/documents/e09ff01002204229131d6eeb/w/d4ffe006ec67723c6fe73dd8/e/5404e0c7dee7a93a5d70d53f) | [Journal](https://github.com/RunTheBot/NotAHackPad/blob/master/journal.md)
 
 # Features
 - 100 keys
