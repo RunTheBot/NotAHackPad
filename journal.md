@@ -1,4 +1,4 @@
-Hours: 7.5h
+Hours: 9.5h
 
 # May 24
 
@@ -48,3 +48,7 @@ Lots of modifactions to the PCB. Because of sizing issues.
 
 
 ![image](https://hc-cdn.hel1.your-objectstorage.com/s/v3/f2d12adf2dd8d2c5410d7742ce670fa7a0d015b8_image.png)
+
+# May 28
+Hours: 2h
+BOM and redoing the PCB yet again. Getting JLC to work. I used the wrong footprint for the diodes 😭.
