@@ -1,4 +1,4 @@
-Hours: 9.5h
+Hours: 9h
 
 # May 24
 
