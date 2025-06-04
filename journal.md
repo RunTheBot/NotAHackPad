@@ -52,3 +52,7 @@ Lots of modifactions to the PCB. Because of sizing issues.
 # May 28
 Hours: 2h
 BOM and redoing the PCB yet again. Getting JLC to work. I used the wrong footprint for the diodes 😭.
+
+# June 4
+
+BOM changes. Remvoed PCBA

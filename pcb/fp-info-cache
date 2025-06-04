@@ -1,4 +1,4 @@
-25611559093185979
+25625551281209362
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102683,6 +102683,48 @@ Varistor VF
 2
 2
 footprints
+FeatherS3
+
+
+0
+28
+28
+footprints
+NanoS3
+
+
+0
+37
+37
+footprints
+OMGS3
+
+
+0
+26
+26
+footprints
+PS4_joystick
+
+
+0
+14
+14
+footprints
+ProS3_SMD
+SMD Footprint for the Unexpected Maker ProS3
+
+0
+34
+34
+footprints
+ProS3_TH
+TH Footprint for the Unexpected Maker ProS3
+
+0
+34
+34
+footprints
 SK6812MINI-E
 
 
@@ -102703,3 +102745,17 @@ Cherry MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u
 0
 2
 2
+footprints
+TinyS3
+
+
+0
+23
+23
+footprints
+XDCR_COM-09032
+
+
+0
+14
+14
