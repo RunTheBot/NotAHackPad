@@ -56,3 +56,7 @@ BOM and redoing the PCB yet again. Getting JLC to work. I used the wrong footpri
 # June 4
 
 BOM changes. Remvoed PCBA
+
+# June 6
+
+I realized that I (may) need to level shift the data lines for the neopixels. Probably not needed but I will do it anyways since it is 100 neopixels and resistances + signal degradtaion might break things.
