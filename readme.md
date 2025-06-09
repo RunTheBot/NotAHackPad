@@ -20,32 +20,32 @@ Made because a hackpad was too easy and small. Also I wanted to make it more lik
 
 # BOM
 
-| Name                       | Quantity | Single Unit Price | Total Price | URL/LCSC                                              |
-|----------------------------|----------|-------------------|-------------|-------------------------------------------------------|
-| Electronics                |          |                   |             |                                                       |
-| C - LEDs                   | 100      |                   | $0.46       | C49678                                                |
-| D - Rows/Cols              | 100      |                   | $2.72       | C241939                                               |
-| SK6812MINI                 | 100      |                   | $5.89       | C5149201                                              |
-| schottky diode             | 1        |                   | $0.29       | C85098                                                |
-| IRF3205PBF                 | 2        |                   | $3.74       | C2561                                                 |
-| 5v 8A PSU                  | 1        |                   | $11.48      | https://www.aliexpress.com/item/4000521124523.html    |
-| IRF9540N                   | 2        |                   | $4.86       | C2575                                                 |
-| SSD1306                    | 1        |                   | $3.10       | https://www.aliexpress.com/item/1005005301005280.html |
-| Barrel Jack                | 1        |                   | $1.84       | C381116                                               |
-| BSS138 (Level Shifter)     | 10       |                   | $0.42       |      C82045                                                 |
-| 10K 0603                   | 100      |                   | $0.11       |                 C98220                                      |
-| Shipping                   |          |                   | $14.79      |                                                       |
-| Misc                       |          |                   |             |                                                       |
-| Solder Paste(Sn42Bi58-55g) |          |                   | $9.78       | https://www.aliexpress.com/item/1005006055037674.html |
-| Hot Plate (MECHANIC HT-10) |          |                   | $58.68      | https://www.aliexpress.com/item/1005006975087368.html |
-| Keys                       |          |                   |             |                                                       |
-| Outemu Silent Grays        | 1        | $22.38            | $22.38      | https://www.aliexpress.com/item/1005007052759423.html |
-| Key Caps - Printed         |          |                   | $0.00       |                                                       |
-| JLC                        |          |                   |             |                                                       |
-| PCB                        | 1        | $19.80            | $19.80      |                                                       |
-| Shipping                   | 1        | $13.60            | $13.60      |                                                       |
-| JLC duties                 |          |                   | $3.57       |                                                       |
-|                            |          |                   |             |                                                       |
-|                            |          |                   | $142.39     | CAD (Calulations in sheet)                                                  |
-|                            |          |                   | $35.12      | USD (Calulations in sheet)                                                   |
-|                            |          |                   | $139.08     | Total - USD                                           |
+| Name                       | Quantity | Single Unit Price | Total Price | URL/LCSC                                              |   |                  |
+|----------------------------|----------|-------------------|-------------|-------------------------------------------------------|---|------------------|
+| Electronics                |          |                   |             |                                                       |   |                  |
+| C - LEDs                   | 100      |                   | $0.45       | C49678                                                |   |                  |
+| D - Rows/Cols              | 100      |                   | $2.72       | C241939                                               |   |                  |
+| SK6812MINI                 | 100      |                   | $5.89       | C5149201                                              |   |                  |
+| schottky diode             | 1        |                   | $0.29       | C85098                                                |   |                  |
+| IRF3205PBF                 | 2        |                   | $3.74       | C2561                                                 |   |                  |
+| 5v 8A PSU                  | 1        |                   | $11.48      | https://www.aliexpress.com/item/4000521124523.html    |   |                  |
+| IRF9540N                   | 2        |                   | $4.86       | C2575                                                 |   |                  |
+| SSD1306                    | 1        |                   | $3.10       | https://www.aliexpress.com/item/1005005301005280.html |   |                  |
+| Barrel Jack                | 1        |                   | $1.84       | C381116                                               |   |                  |
+| BSS138 (Level Shifter)     | 10       |                   | $0.42       | C82045                                                |   |                  |
+| 10K 0603                   | 100      |                   | $0.11       | C98220                                                |   |                  |
+| Shipping/handling          |          |                   | $17.79      |                                                       |   |                  |
+| Misc                       |          |                   |             |                                                       |   |                  |
+| Solder Paste(Sn42Bi58-55g) |          |                   | $9.78       | https://www.aliexpress.com/item/1005006055037674.html |   |                  |
+| Hot Plate (MECHANIC HT-10) |          |                   | $58.68      | https://www.aliexpress.com/item/1005006975087368.html |   |                  |
+| Keys                       |          |                   |             |                                                       |   |                  |
+| Outemu Silent Grays        | 1        |                   |             | https://www.aliexpress.com/item/1005007052759423.html |   | With uController |
+| Key Caps - Printed         |          |                   | $0.00       |                                                       |   |                  |
+| JLC                        |          |                   |             |                                                       |   |                  |
+| PCB                        | 1        | $19.80            | $19.80      |                                                       |   |                  |
+| Shipping                   | 1        | $13.60            | $13.60      |                                                       |   |                  |
+| JLC duties                 |          |                   | $3.57       |                                                       |   |                  |
+|                            |          |                   |             |                                                       |   |                  |
+|                            |          |                   | $83.04      | CAD                                                   |   |                  |
+|                            |          |                   | $75.08      | USD                                                   |   |                  |
+|                            |          |                   | $135.76     | Total - USD                                           |   |                  |
