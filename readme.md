@@ -37,7 +37,7 @@ Made because a hackpad was too easy and small. Also I wanted to make it more lik
 | Shipping/handling          |          |                   | $17.79      |                                                       |   |                  |
 | Misc                       |          |                   |             |                                                       |   |                  |
 | Solder Paste(Sn42Bi58-55g) |          |                   | $9.78       | https://www.aliexpress.com/item/1005006055037674.html |   |                  |
-| Hot Plate (MECHANIC HT-10) |          |                   | $58.68      | https://www.aliexpress.com/item/1005006975087368.html |   |                  |
+| Hot Plate (MECHANIC HT-10) |          |                   | $33.99      | https://www.aliexpress.com/item/1005007493895441.html |   |                  |
 | Keys                       |          |                   |             |                                                       |   |                  |
 | Outemu Silent Grays        | 1        |                   |             | https://www.aliexpress.com/item/1005007052759423.html |   | With uController |
 | Key Caps - Printed         |          |                   | $0.00       |                                                       |   |                  |
@@ -46,6 +46,6 @@ Made because a hackpad was too easy and small. Also I wanted to make it more lik
 | Shipping                   | 1        | $13.60            | $13.60      |                                                       |   |                  |
 | JLC duties                 |          |                   | $3.57       |                                                       |   |                  |
 |                            |          |                   |             |                                                       |   |                  |
-|                            |          |                   | $83.04      | CAD                                                   |   |                  |
+|                            |          |                   | $58.35      | CAD                                                   |   |                  |
 |                            |          |                   | $75.08      | USD                                                   |   |                  |
-|                            |          |                   | $135.76     | Total - USD                                           |   |                  |
+|                            |          |                   | $117.71     | Total - USD                                           |   |                  |
