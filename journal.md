@@ -1,4 +1,4 @@
-Hours: 9h
+Hours: 14h
 
 # May 24
 
@@ -54,9 +54,13 @@ Hours: 2h
 BOM and redoing the PCB yet again. Getting JLC to work. I used the wrong footprint for the diodes 😭.
 
 # June 4
-
+Hours: 1h
 BOM changes. Remvoed PCBA
 
 # June 6
+Hours: 2h
 
 I realized that I (may) need to level shift the data lines for the neopixels. Probably not needed but I will do it anyways since it is 100 neopixels and resistances + signal degradtaion might break things.
+
+# June 7
+Hours: 2h
