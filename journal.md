@@ -1,4 +1,4 @@
-Hours: 14h
+Hours: 22h
 
 # May 24
 
@@ -62,5 +62,23 @@ Hours: 2h
 
 I realized that I (may) need to level shift the data lines for the neopixels. Probably not needed but I will do it anyways since it is 100 neopixels and resistances + signal degradtaion might break things.
 
-# June 7
-Hours: 2h
+# June 27
+Hours: 4h
+
+Soldering all the LEDs and the microcontroller. 
+
+Turns out I used way too much heat and too unevenly, so I warped the PCB and cracked multiple caps.
+
+# July 29
+Hours: 2
+So I lowkey got very busy with exams and stuff then hackathons then Undercity.
+
+I removed all the cracked caps. Realized that other stuff was very wrong about the PCB. Like I messed it up. not in kicad but in real life.
+
+# July 30-31
+Hours: 4
+Fixing it up and debugging
+
+So there are micro shorts everywhere, and when they heat up, they go from ~60k ohms to 1 ohms shorts, so rip. Freezer strats FTW. 
+
+
