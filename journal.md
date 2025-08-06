@@ -82,3 +82,5 @@ Fixing it up and debugging
 So there are micro shorts everywhere, and when they heat up, they go from ~60k ohms to 1 ohms shorts, so rip. Freezer strats FTW. 
 
 
+# Aug 2nd
+It works bodge wired except for a couple of keys. The case doesn't fit. Demo time.
