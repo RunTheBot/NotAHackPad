@@ -8,8 +8,7 @@ Made because a hackpad was too easy and small. Also I wanted to make it more lik
 
 ![image](https://hc-cdn.hel1.your-objectstorage.com/s/v3/f2d12adf2dd8d2c5410d7742ce670fa7a0d015b8_image.png)
 ![image](https://hc-cdn.hel1.your-objectstorage.com/s/v3/e4419d36a5dcb26c27e8058150020da9df8670d5_image.png)
-![image](https://hc-cdn.hel1.your-objectstorage.com/s/v3/e38bd65cd81cb741fee232a9d774f51cc142aea5_image.png)
-
+![image](https://hc-cdn.hel1.your-objectstorage.com/s/v3/fb85718ab64355b2ad34549424724e33e260ee1a_img_20250911_211653153_hdr.jpg)
 # Features
 - 100 keys
 - OLED Display
