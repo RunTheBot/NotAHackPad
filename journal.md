@@ -75,7 +75,7 @@ Warped ahhh PCB
 
 I also had to bodge the wire two MOSFETs
 
-![a](https://hc-cdn.hel1.your-objectstorage.com/s/v3/0721428de65981ef864d40a2dbf09b90198c23e3_a.png)
+![a](https://github.com/RunTheBot/NotAHackPad/blob/main/mosfets.png?raw=true)
 
 # July 29
 Hours: 2
@@ -93,5 +93,5 @@ So there are micro shorts everywhere, and when they heat up, they go from ~60k o
 # Aug 2nd
 It works bodge-wired except for a couple of keys. The case doesn't fit. Demo time.
 
-![s](https://hc-cdn.hel1.your-objectstorage.com/s/v3/14ca119e87f645c2fd584cf7d717371f24cb1e2e_b.png)
-![s](https://hc-cdn.hel1.your-objectstorage.com/s/v3/2dbbc52b43d917bd659a13e437c391f2cfb3358d_c.png)
+![s](https://github.com/RunTheBot/NotAHackPad/blob/main/wire.png?raw=true)
+![s](https://github.com/RunTheBot/NotAHackPad/blob/main/more%20wire.png?raw=true)
